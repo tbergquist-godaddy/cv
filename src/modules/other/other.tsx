@@ -1,4 +1,4 @@
-import Title from '../title';
+import Title from "../title";
 
 export default function Other() {
   return (
@@ -26,8 +26,8 @@ export default function Other() {
           <li>
             <span className="ItemList_Date"> Core skills </span>
             <span className="ItemList_Detail">
-              JavaScript, Typescript, Flow, React, NextJS, React Query, Redux, Graphql, Nodejs,
-              Relay, html, css
+              JavaScript, Typescript, Flow, React, NextJS, React Query, Redux,
+              Graphql, Nodejs, Relay, html, css
             </span>
           </li>
         </ul>
