@@ -1,6 +1,6 @@
-import ItemList from "../item-list";
-import educationContent from "./education-content";
-import Title from "../title";
+import ItemList from '../item-list';
+import educationContent from './education-content';
+import Title from '../title';
 
 export default function Education() {
   return (

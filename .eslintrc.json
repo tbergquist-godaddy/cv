@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "@adeira/eslint-config/base",
+    "@adeira/eslint-config/react",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "n/file-extension-in-import": [
+      "error",
+      "always",
+      { ".js": "never", ".ts": "never", ".tsx": "never" }
+    ]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+      }
+    }
+  }
+}

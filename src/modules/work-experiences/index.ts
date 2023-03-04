@@ -1,1 +1,1 @@
-export { default } from "./work-experiences";
+export { default } from './work-experiences';
