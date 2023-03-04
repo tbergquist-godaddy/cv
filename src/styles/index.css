@@ -1,0 +1,19 @@
+@import url('./base/reset.css');
+@import url('./components/item-list.css');
+@import url('./layout/grid.css');
+@import url('./pages/curriculum.css');
+@import url('./theme/default.css');
+@import url('./typography/roboto.css');
+@import url('./utility.css'); 
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: var(--color-text-black);
+}

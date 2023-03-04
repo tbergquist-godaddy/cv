@@ -1,4 +1,10 @@
 ---
+import PersonalInformation from '../modules/personal-information';
+import Education from '../modules/education';
+import WorkExperiences from '../modules/work-experiences';
+import Other from '../modules/other';
+import AboutMe from '../modules/about-me';
+import '../styles/index.css'
 ---
 
 <html lang="en">
@@ -10,6 +16,12 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div className="Curriculum">
+      <PersonalInformation />
+      <Education />
+      <WorkExperiences />
+      <Other />
+      <AboutMe />
+    </div>
 	</body>
 </html>
