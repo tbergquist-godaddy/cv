@@ -1,4 +1,4 @@
-import ItemList from '../item-list';
+import ItemList, { ListItem } from '../item-list';
 import educationContent from './education-content';
 import Title from '../title';
 
@@ -7,7 +7,17 @@ export default function Education() {
     <div className="Education u-space-y-large">
       <div className="container">
         <Title>Education</Title>
-        <ItemList listItems={educationContent} />
+        <ItemList>
+          {educationContent.map(({ id, date, detail }) => (
+            <ListItem key={id}>
+              <ListItem.Leading>{date}</ListItem.Leading>
+              <ListItem.Detail>
+                <strong>{detail.title}</strong>
+                <div>{detail.subtitle}</div>
+              </ListItem.Detail>
+            </ListItem>
+          ))}
+        </ItemList>
       </div>
     </div>
   );
