@@ -13,7 +13,6 @@
     "lint": "eslint . --ext=.js,.json,.ts,.tsx --report-unused-disable-directives --fix"
   },
   "dependencies": {
-    "@astrojs/vercel": "^3.1.4",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@types/shortid": "^0.0.29",
