@@ -16,6 +16,7 @@ specifiers:
   prettier: ^2.8.4
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-string-replace: ^1.1.0
   shortid: ^2.2.16
   typescript: ^4.9.5
 
@@ -27,6 +28,7 @@ dependencies:
   astro: 2.0.17
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-string-replace: 1.1.0
   shortid: 2.2.16
 
 devDependencies:
@@ -4216,6 +4218,11 @@ packages:
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
+
+  /react-string-replace/1.1.0:
+    resolution: {integrity: sha512-N6RalSDFGbOHs0IJi1H611WbZsvk3ZT47Jl2JEXFbiS3kTwsdCYij70Keo/tWtLy7sfhDsYm7CwNM/WmjXIaMw==}
+    engines: {node: '>=0.12.0'}
+    dev: false
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}

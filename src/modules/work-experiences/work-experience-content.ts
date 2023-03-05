@@ -7,7 +7,7 @@ export default [
     detail: {
       title: 'Front End Engineering Manager, GoDaddy',
       subtitle:
-        'Leading the EMEA brand apps team (Nov 2021-Dec 2022), working to create a whitelabel e-commerce platform reusable for all GoDaddy brands with full customization. Leading the Identity UI team, responsible for login, profile & preferences UI.',
+        'Leading the EMEA brand apps team (Nov 2021-Dec 2022), working to create a whitelabel e-commerce platform reusable for all GoDaddy brands with full customization. {br} Leading the Identity UI team (Dec 2022 - current), responsible for login, profile & preferences UI.',
     },
   },
   {

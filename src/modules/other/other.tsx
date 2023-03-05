@@ -1,36 +1,35 @@
 import Title from '../title';
+import ItemList, { ListItem } from '../item-list';
 
 export default function Other() {
   return (
     <div className="Other">
       <div className="container">
         <Title>Other</Title>
-        <ul className="ItemList">
-          <li>
-            <span className="ItemList_Date">Language</span>
-            <span className="ItemList_Detail">
+        <ItemList>
+          <ListItem>
+            <ListItem.Leading>Language</ListItem.Leading>
+            <ListItem.Detail>
+              <strong>Norwegian, </strong>
+              <span>Native language</span>
               <div>
-                <span className="u-text-bold">Norwegian, </span>
-                <span>Native language</span>
-              </div>
-              <div>
-                <span className="u-text-bold">English, </span>
+                <strong>English, </strong>
                 <span>professional level, written and spoken</span>
               </div>
               <div>
-                <span className="u-text-bold">Spanish, </span>
+                <strong>Spanish, </strong>
                 <span>professional level, written and spoken</span>
               </div>
-            </span>
-          </li>
-          <li>
-            <span className="ItemList_Date"> Core skills </span>
-            <span className="ItemList_Detail">
+            </ListItem.Detail>
+          </ListItem>
+          <ListItem>
+            <ListItem.Leading> Core skills </ListItem.Leading>
+            <ListItem.Detail>
               JavaScript, Typescript, Flow, React, NextJS, React Query, Redux, Graphql, Nodejs,
               Relay, html, css
-            </span>
-          </li>
-        </ul>
+            </ListItem.Detail>
+          </ListItem>
+        </ItemList>
       </div>
     </div>
   );
