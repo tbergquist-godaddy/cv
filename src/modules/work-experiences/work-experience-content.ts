@@ -3,62 +3,67 @@ import { generate } from 'shortid';
 export default [
   {
     id: generate(),
-    date: 'Nov 2021 – Current',
+    date: 'Jul 2016 – Jun 2024',
     detail: {
-      title: 'Front End Engineering Manager, GoDaddy',
-      subtitle:
-        'Leading the EMEA brand apps team (Nov 2021-Dec 2022), working to create a whitelabel e-commerce platform reusable for all GoDaddy brands with full customization. {br} Leading the Identity UI team (Dec 2022 - current), responsible for login, profile & preferences UI.',
+      title: 'Accounts payable and receivable, Averdi Karasjok (Norway)',
+      subtitle: '',
+      details: [
+        'Data entry of invoices to the accounting system.',
+        'Maintain accurate records and databases by entering, updating and verifying data.',
+        'Processing invoices received from vendors.',
+        'Analysis account of payable and receivable. ',
+        'Processes invoices for payment; prints and mails accounts payable checks.',
+        'Prepares monthly bank reconciliations.',
+        'Issues and tracks purchase orders.',
+        'Ensuring timely and accurate payments to vendors.',
+        'Prepare and distribute reports, memos and other documents as needed.',
+        'Assist with special projects and tasks as assigned by management.',
+        'Recording and coding customer payments in the accounting system.',
+        'Reconciling customer accounts and resolving discrepancies.',
+      ],
     },
   },
   {
     id: generate(),
-    date: 'Nov 2020 – Nov 2021',
+    date: 'Jul 2011 – Dec 2014',
     detail: {
-      title: 'Senior Front End developer, GoDaddy',
-      subtitle:
-        'Working with React to create a whitelabel e-commerce platform reusable for all GoDaddy brands with full customization.',
+      title: 'Analyst Accounting, Star Peru Airline',
+      subtitle: '',
+      details: [
+        'Accounts receivables processing. ',
+        'Analysis accounts of payable and receivable. ',
+        'Prepare monthly bank reconciliations.',
+        'Data entry of invoices to the accounting system. ',
+        'Maintain an organized filing system of paper and electronic documents. ',
+        'Prepare reports and analyses as required. ',
+        'Process vendor invoices for assigned properties based on requirements and procedures set by the Company and ensuring timeliness of invoice processing, correctness of invoice processed. ',
+        'Data entry of orders, purchase and sells into ERP system. ',
+        'Maintain on time shipping for future scheduled orders, requesting confirmation and payment to process. ',
+        'Generate and update sales reports as needed. ',
+      ],
     },
   },
   {
     id: generate(),
-    date: 'Nov 2017 – Nov 2020',
+    date: 'Jan 2006 - Jun 2011',
     detail: {
-      title: 'Senior Front End developer, kiwi.com',
-      subtitle:
-        'Working with react-native, react-native-web, graphql(written in nodejs) and relay, implementing react-native views into our existing native app, and working with cross-platform apps. Building the new accounts page from scratch using nextjs, styled-components, styled-system, react, relay',
+      title: 'Assistant accounting, Cielos airlines',
+      subtitle: '',
+      details: [
+        'Data entry of orders ,purchase and sells into ERP system.',
+        'Produces and processes bills, and maintains billing information.',
+        'Analysis accounting and reports of payable and receivable accounts. ',
+        'Bank reconciliation .',
+        'Provides faxing, copying, collating and mail processing support. ',
+      ],
     },
   },
   {
     id: generate(),
-    date: 'Apr 2017 – Nov 2017',
+    date: 'Feb 2004 - Oct 2005',
     detail: {
-      title: 'Fullstack developer, Optimera',
-      subtitle: 'Working with e-commerce solution, using React, angular, c#, .NET, epi- server.',
-    },
-  },
-  {
-    id: generate(),
-    date: 'Mar 2016 – Apr 2017',
-    detail: {
-      title: 'Front End developer, Sigma ITM',
-      subtitle:
-        'Building mobile apps and web apps using angular, ionic, cordova, react and react-native',
-    },
-  },
-  {
-    id: generate(),
-    date: 'Feb 2015 – Mar 2016',
-    detail: {
-      title: 'Fullstack developer, Nettpost AS',
-      subtitle: 'Working with document managing system, using C#, .NET, html, javascript.',
-    },
-  },
-  {
-    id: generate(),
-    date: 'Jan 2014 – Feb 2015',
-    detail: {
-      title: 'Fullstack developer, Sysco AS',
-      subtitle: 'Building economy system for depreciations using C#, .NET, html, jQuery.',
+      title: 'Customer service, Atento Peru',
+      subtitle: '',
     },
   },
 ];

@@ -23,6 +23,14 @@ export default function WorkExperiences() {
                     </>
                   ))}
                 </div>
+                {detail.details?.map((item, i) => (
+                  <div key={i} style={{ display: 'flex', paddingLeft: '4px' }}>
+                    <span style={{ fontSize: '25px', lineHeight: 1, marginRight: '8px' }}>
+                      &#x2022;
+                    </span>
+                    <div key={item}>{item}</div>
+                  </div>
+                ))}
               </ListItem.Detail>
             </ListItem>
           ))}

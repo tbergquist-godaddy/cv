@@ -10,23 +10,25 @@ export default function Other() {
           <ListItem>
             <ListItem.Leading>Language</ListItem.Leading>
             <ListItem.Detail>
-              <strong>Norwegian, </strong>
-              <span>Native language</span>
-              <div>
-                <strong>English, </strong>
-                <span>professional level, written and spoken</span>
-              </div>
               <div>
                 <strong>Spanish, </strong>
-                <span>professional level, written and spoken</span>
+                <span>Native language</span>
+              </div>
+              <div>
+                <strong>English, </strong>
+                <span>intermediate level, written and spoken</span>
+              </div>
+              <div>
+                <strong>Norwegian, </strong>
+                <span>Basic knowledge</span>
               </div>
             </ListItem.Detail>
           </ListItem>
           <ListItem>
-            <ListItem.Leading> Core skills </ListItem.Leading>
+            <ListItem.Leading> Computer skills </ListItem.Leading>
             <ListItem.Detail>
-              JavaScript, Typescript, Flow, React, NextJS, React Query, Redux, Graphql, Nodejs,
-              Relay, html, css
+              Computer proficiency (Word, Excel, Adobe Reader), Office and word programs, advanced
+              Microsoft Excel.
             </ListItem.Detail>
           </ListItem>
         </ItemList>
