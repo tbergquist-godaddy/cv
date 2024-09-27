@@ -3,13 +3,14 @@ import reactStringReplace from 'react-string-replace';
 import Title from '../title';
 import ItemList, { ListItem } from '../item-list';
 import workExperienceContent from './work-experience-content';
+import './work-experiences.css';
 
 export default function WorkExperiences() {
   return (
     <div className="WorkExperiences">
       <div className="container">
         <Title>Work experiences</Title>
-        <ItemList>
+        <ItemList className="WorkExperiences">
           {workExperienceContent.map(({ id, date, detail }) => (
             <ListItem key={id}>
               <ListItem.Leading>{date}</ListItem.Leading>
